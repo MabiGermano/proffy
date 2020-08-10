@@ -1,6 +1,8 @@
 #page-landing {
+    position: absolute;
+    top: 0;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -12,6 +14,7 @@
 
 .logo-container img {
     height: 10rem;
+    margin-top: 3rem;
 }
 
 .hero-image {
@@ -27,7 +30,7 @@
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 4.6rem;
-    margin-top: 0.8rem;
+    margin-top: 0.8rem
 
 }
 .buttons-container {
@@ -82,6 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1.6rem;
 }
 
 .total-connections img {
@@ -112,6 +116,7 @@
         font-size: 3.6rem;
     }
     .logo-container img {
+        margin-top: 0 !important;
         height: 100%;
     }
     .hero-image {
@@ -131,6 +136,7 @@
     .total-connections {
         grid-area: total;
         justify-self: end;
+        margin-bottom: 0 !important;
     }
 }
 
